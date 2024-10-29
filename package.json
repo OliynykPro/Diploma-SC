@@ -1,0 +1,16 @@
+{
+  "name": "taras-oliinyk-masters-diploma",
+  "version": "1.0.0",
+  "description": "Web3 gradebook",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx hardhat clean && npx hardhat compile"
+  },
+  "author": "Taras Oliinyk",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.7",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.13"
+  }
+}
